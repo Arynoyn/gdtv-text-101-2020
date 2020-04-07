@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98aa61497ae592843bb8f09e3ef1363a, type: 3}
+  m_Name: StartingState
+  m_EditorClassIdentifier: 
+  storyText: 'You awake in a room. There is a window, a door, and a chair
+
+    
+
+    What
+    do you do?
+
+    
+
+    1) Try the Window
+
+    2) Try the door
+
+    3) Sit
+    in the Chair'
+  nextStates:
+  - {fileID: 11400000, guid: 5230b2520161db54baeb6d5fcda927b7, type: 2}
+  - {fileID: 11400000, guid: f9c7f1d9fdf1aa342b4dd6554049ef27, type: 2}

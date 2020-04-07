@@ -1,0 +1,7 @@
+﻿You awake in a room. There is a window, a door, and a chair
+
+What do you do?
+
+1) Try the Window
+2) Try the door
+3) Sit in the Chair
