@@ -16,11 +16,11 @@ MonoBehaviour:
     and you hear yourself utter the words "Open Portal" as a portal with a view into
     a city set in a more lush environment materializes on the other side of the oasis.
 
-    
+
 
     What
     do you do next?:
 
-    1. [[Step through the portal->C2. The City]]'
+    1. Step through the portal'
   nextStates:
   - {fileID: 11400000, guid: d447ba6f81ac2d847b606c7774dde152, type: 2}

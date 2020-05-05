@@ -17,15 +17,14 @@ MonoBehaviour:
     After walking for hours you seem to have made absolutely no progress and everything
     around you looks exactly like it did before.
 
-    
+
 
     What do you do next?:
 
     1.
-    [[Check your pockets to see what you have available to you->A3. Check for your
-    Controller]]
+    Check your pockets to see what you have available to you
 
-    2. [[Continue walking->B1. Continue Walking]]'
+    2. Continue walking'
   nextStates:
   - {fileID: 11400000, guid: 1614dfb0b32d8e140bc80493b127f6aa, type: 2}
   - {fileID: 11400000, guid: ed8249c8f8690d84887f9ae769a26b87, type: 2}

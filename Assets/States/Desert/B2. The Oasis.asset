@@ -17,15 +17,15 @@ MonoBehaviour:
     thirst! An instinct in your mind, bred by years of playing adventure games, warns
     you that there may be unseen danger here but the water looks so inviting...
 
-    
+
 
     What
     do you do next?:
 
-    1. [[Quench your thirst! Drink from the Oasis->B3. Drink
-    from the oasis]]
+    1. Quench your thirst! Drink from the Oasis
 
-    2. [[Take a Swim! No one is here anyway!->B4. Take a swim]]'
+    2. Take
+    a Swim! No one is here anyway!'
   nextStates:
   - {fileID: 11400000, guid: 9f11ea4c7f6a20e4698bd432679afe02, type: 2}
   - {fileID: 11400000, guid: 095d2b9a6d3a2a34d961e4b63bec5e1e, type: 2}

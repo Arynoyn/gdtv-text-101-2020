@@ -18,11 +18,11 @@ MonoBehaviour:
     As your sight fades you see two booted feet appear next to your face where you
     landed in the desert sand. and then it fades to black.
 
-    
 
-    What do you
-    do next?:
 
-    1. [[Game Over->X1. Game Over]]'
+    What do you do
+    next?:
+
+    1. Game Over'
   nextStates:
   - {fileID: 11400000, guid: 8eb63ec3616e96248a4dcda48f891f48, type: 2}

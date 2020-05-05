@@ -17,15 +17,14 @@ MonoBehaviour:
     then you hear a rustling behind one of the trees in the oasis. At the same time
     the ''A'' button begins to glow on your controller.
 
-    
 
-    What do you
-    do next?:
 
-    1. [[Investigate the noise->B6. Investigate]]
+    What do you do next?:
 
-    2. [[Press
-    the glowing ''A'' Button on your controller->B7. Toys!]]'
+    1.
+    Investigate the noise
+
+    2. Press the glowing ''A'' Button on your controller'
   nextStates:
   - {fileID: 11400000, guid: e995b902c324758489640eea2db53efb, type: 2}
   - {fileID: 11400000, guid: afd267d0568ae8f44914cb35096f5095, type: 2}

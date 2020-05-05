@@ -16,11 +16,11 @@ MonoBehaviour:
     your vision blurs, your body goes numb, and you fall beneath the water. THe last
     thing you hear is some one splashing through the water towards you.
 
-    
+
 
     What
     do you do next?:
 
-    1. [[The End->X1. Game Over]]'
+    1. The End'
   nextStates:
   - {fileID: 11400000, guid: 8eb63ec3616e96248a4dcda48f891f48, type: 2}

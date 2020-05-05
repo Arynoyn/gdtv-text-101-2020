@@ -17,8 +17,7 @@ MonoBehaviour:
     you press it with authority. What happens next however you are not prepared for.
     An earring materializes on your left ear and a voice in your head that sounds
     eerily similar to your own voice yells at you \"Not again! Watch out!\" \r\n\r\nWhat
-    do you do next?:\r\n1. [[Duck and Roll->B9. A near miss]]\r\n2. [[Demand \"Who
-    was that?\"->B8. Curiosity killed the ...]]"
+    do you do next?:\r\n1. Duck and Roll\n2. Demand \"Who was that?\""
   nextStates:
   - {fileID: 11400000, guid: fceeaf11dffea5d4c8c742b8ad67f797, type: 2}
   - {fileID: 11400000, guid: 38fc122e405ebf6428c723496af55e6c, type: 2}

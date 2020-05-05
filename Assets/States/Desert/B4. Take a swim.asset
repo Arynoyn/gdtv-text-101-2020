@@ -15,6 +15,6 @@ MonoBehaviour:
   storyText: "As you start to strip down so that you can enjoy a quick dip in the
     Oasis you realize that there is something in your pocket. How on earth had you
     traveled for hours on end and not noticed it? \r\n\r\nWhat do you do next?:\r\n1.
-    [[Inspect the object from your pocket->B5. Check your Pocket]]"
+    Inspect the object from your pocket"
   nextStates:
   - {fileID: 11400000, guid: 8211561fed3afe748965dcaa3d57a8d6, type: 2}

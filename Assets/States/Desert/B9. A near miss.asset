@@ -20,15 +20,14 @@ MonoBehaviour:
     trigger and the hulk disintegrates into thin air. "Whoo Hoo!" you hear the excited
     "you that isn''t you" scream into your earring. "Now let''s portal out of here."
 
-    
+
 
     What
     do you do next?
 
-    1. [[Demand to know who is speaking->C1. The Other You]]
+    1. Demand to know who is speaking
 
-    2.
-    [[Go with the flow->C1. The Other You]] '
+    2. Go with the flow'
   nextStates:
   - {fileID: 11400000, guid: 14e8c5da443efea4690871c684a9bb06, type: 2}
   - {fileID: 11400000, guid: 14e8c5da443efea4690871c684a9bb06, type: 2}

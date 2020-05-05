@@ -17,7 +17,6 @@ MonoBehaviour:
     choice of travel packing the 'A' button begins to glow. As you press the button,
     An earring materializes on your left ear and a voice in your head that sounds
     eerily similar to your own voice saying \"now how does that portal work again?\"
-    \r\n\r\nWhat do you do next?:\r\n1. [[Demand to know who is speaking->C1. The
-    Other You]]"
+    \r\n\r\nWhat do you do next?:\r\n1. Demand to know who is speaking"
   nextStates:
   - {fileID: 11400000, guid: 14e8c5da443efea4690871c684a9bb06, type: 2}

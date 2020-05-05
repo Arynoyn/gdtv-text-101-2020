@@ -23,9 +23,7 @@ MonoBehaviour:
     to choose your next action based on pressing a key on the keyboard.
 
 
-    At
-    any point in time push ''q'' to quit.
-
-    Press 1 to Continue'
+    Press
+    1 to Continue'
   nextStates:
   - {fileID: 11400000, guid: 80f809f3329e35f4cb7a73401a273c51, type: 2}

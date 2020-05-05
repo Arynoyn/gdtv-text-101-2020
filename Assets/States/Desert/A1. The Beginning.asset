@@ -16,8 +16,7 @@ MonoBehaviour:
     That isn't saying much since most of your time is spent in a dark room staring
     at a digital screen and manipulating a gaming console controller to move digital
     representations of characters around in a virtual world. \r\n\r\nChoose what
-    you do next:\r\n1. Take a look around->A2. Take a look around\n2. Check your
-    pockets->A3. Check for your Controller"
+    you do next:\r\n1. Take a look around\n2. Check your pockets"
   nextStates:
   - {fileID: 11400000, guid: 0f0342d13cbf08340b3631f2a00fb8bf, type: 2}
   - {fileID: 11400000, guid: 1614dfb0b32d8e140bc80493b127f6aa, type: 2}

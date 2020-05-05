@@ -16,15 +16,14 @@ MonoBehaviour:
     a desert. You see nothing but sand and sun stretching in every direction. How
     did you get here? Where is here? What is going on?!
 
-    
 
-    What do you
-    do next?:
 
-    1. [[Check your pockets to see what you have available to you->A3.
-    Check for your Controller]]
+    What do you do next?:
 
-    2. [[Start walking->A4. Start Walking]]'
+    1.
+    Check your pockets to see what you have available to you
+
+    2. Start walking'
   nextStates:
   - {fileID: 11400000, guid: 1614dfb0b32d8e140bc80493b127f6aa, type: 2}
   - {fileID: 11400000, guid: 62f609a413b2aac4a81c223e3c6a3300, type: 2}
