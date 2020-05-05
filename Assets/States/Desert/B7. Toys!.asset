@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98aa61497ae592843bb8f09e3ef1363a, type: 3}
+  m_Name: B7. Toys!
+  m_EditorClassIdentifier: 
+  storyText: "You know from years of late night gaming sessions and intense first
+    person shooting matches that the flashing button is alerting you to danger and
+    you press it with authority. What happens next however you are not prepared for.
+    An earring materializes on your left ear and a voice in your head that sounds
+    eerily similar to your own voice yells at you \"Not again! Watch out!\" \r\n\r\nWhat
+    do you do next?:\r\n1. [[Duck and Roll->B9. A near miss]]\r\n2. [[Demand \"Who
+    was that?\"->B8. Curiosity killed the ...]]"
+  nextStates:
+  - {fileID: 11400000, guid: fceeaf11dffea5d4c8c742b8ad67f797, type: 2}
+  - {fileID: 11400000, guid: 38fc122e405ebf6428c723496af55e6c, type: 2}

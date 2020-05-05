@@ -14,19 +14,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   storyText: 'You awake in a room. There is a window, a door, and a chair
 
-    
+
 
     What
     do you do?
 
-    
+
 
     1) Try the Window
 
     2) Try the door
 
-    3) Sit
-    in the Chair'
+    3) Sit in the Chair'
   nextStates:
   - {fileID: 11400000, guid: 5230b2520161db54baeb6d5fcda927b7, type: 2}
   - {fileID: 11400000, guid: f9c7f1d9fdf1aa342b4dd6554049ef27, type: 2}

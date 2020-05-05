@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98aa61497ae592843bb8f09e3ef1363a, type: 3}
+  m_Name: B8. Curiousity killed the...
+  m_EditorClassIdentifier: 
+  storyText: '"Who the hell are you?" You yell as you are surprised by the voice
+    in your head. Unfortunately, it''s the last question you get to ask. You feel
+    a sudden pain in the back of your head and a hear a loud crack to go with it.
+    As your sight fades you see two booted feet appear next to your face where you
+    landed in the desert sand. and then it fades to black.
+
+    
+
+    What do you
+    do next?:
+
+    1. [[Game Over->X1. Game Over]]'
+  nextStates:
+  - {fileID: 11400000, guid: 8eb63ec3616e96248a4dcda48f891f48, type: 2}

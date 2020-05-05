@@ -4,23 +4,21 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class AdventureGame : MonoBehaviour
-{
+public class AdventureGame : MonoBehaviour {
     [SerializeField] private Text textComponent;
 
     [SerializeField] private State startingState;
 
     private State state;
+
     // Start is called before the first frame update
-    void Start()
-    {
+    void Start() {
         state = startingState;
         UpdateStoryText();
     }
 
     // Update is called once per frame
-    void Update()
-    {
+    void Update() {
         if (!string.IsNullOrEmpty(Input.inputString)) {
             ManageState();
         }
@@ -28,14 +26,13 @@ public class AdventureGame : MonoBehaviour
 
     private void ManageState() {
         var nextStates = state.GetNextStates();
-        if (Input.GetKeyDown(KeyCode.Alpha1)) {
-            state = nextStates[0];
-        }
-        else if (Input.GetKeyDown(KeyCode.Alpha2)) {
-            state = nextStates[1];
+        for (var index = 0; index < nextStates.Length; index++) {
+            if (Input.GetKeyDown(KeyCode.Alpha1 + index)) {
+                state = nextStates[index];
+            }
         }
         UpdateStoryText();
-        
+
         //Future Enhancement for choosing 1 to N states
         /*int NumericValue = -1;
         int.TryParse(Input.inputString, out NumericValue);
@@ -46,8 +43,7 @@ public class AdventureGame : MonoBehaviour
         }*/
     }
 
-    private void UpdateStoryText()
-    {
+    private void UpdateStoryText() {
         textComponent.text = state.GetStateStory();
     }
 }

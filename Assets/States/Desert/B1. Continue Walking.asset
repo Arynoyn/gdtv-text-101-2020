@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98aa61497ae592843bb8f09e3ef1363a, type: 3}
+  m_Name: B1. Continue Walking
+  m_EditorClassIdentifier: 
+  storyText: 'With hard headed determination you continue to forge on. After several
+    more hours your vision begins to blur and you see what certainly must be a mirage!
+    You see a small oasis! There doesn''t seem to be any one around and you certainly
+    are parched!
+
+    
+
+    What do you do next?:
+
+    1. [[Check your pockets
+    to see what you have available to you->A3. Check for your Controller]]
+
+    2.
+    [[Run Headlong for the inviting water->B2. The Oasis]]'
+  nextStates:
+  - {fileID: 11400000, guid: 1614dfb0b32d8e140bc80493b127f6aa, type: 2}
+  - {fileID: 11400000, guid: 51d3f9ff280c3344485f7bf859c47ac5, type: 2}

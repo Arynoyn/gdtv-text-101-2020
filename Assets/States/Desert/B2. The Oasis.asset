@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98aa61497ae592843bb8f09e3ef1363a, type: 3}
+  m_Name: B2. The Oasis
+  m_EditorClassIdentifier: 
+  storyText: 'Upon reaching the oasis you find that it is indeed real and not a mirage!
+    What luck! You still have no Idea where you are but at least you won''t die of
+    thirst! An instinct in your mind, bred by years of playing adventure games, warns
+    you that there may be unseen danger here but the water looks so inviting...
+
+    
+
+    What
+    do you do next?:
+
+    1. [[Quench your thirst! Drink from the Oasis->B3. Drink
+    from the oasis]]
+
+    2. [[Take a Swim! No one is here anyway!->B4. Take a swim]]'
+  nextStates:
+  - {fileID: 11400000, guid: 9f11ea4c7f6a20e4698bd432679afe02, type: 2}
+  - {fileID: 11400000, guid: 095d2b9a6d3a2a34d961e4b63bec5e1e, type: 2}

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98aa61497ae592843bb8f09e3ef1363a, type: 3}
+  m_Name: A1. The Beginning
+  m_EditorClassIdentifier: 
+  storyText: "You awaken to the brightest light you have ever seen in your life!
+    That isn't saying much since most of your time is spent in a dark room staring
+    at a digital screen and manipulating a gaming console controller to move digital
+    representations of characters around in a virtual world. \r\n\r\nChoose what
+    you do next:\r\n1. Take a look around->A2. Take a look around\n2. Check your
+    pockets->A3. Check for your Controller"
+  nextStates:
+  - {fileID: 11400000, guid: 0f0342d13cbf08340b3631f2a00fb8bf, type: 2}
+  - {fileID: 11400000, guid: 1614dfb0b32d8e140bc80493b127f6aa, type: 2}

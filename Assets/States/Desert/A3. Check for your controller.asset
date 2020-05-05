@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98aa61497ae592843bb8f09e3ef1363a, type: 3}
+  m_Name: A3. Check for your controller
+  m_EditorClassIdentifier: 
+  storyText: "You check your pocket and find your favorite game controller there.
+    That's weird I wonder how that happened? As you are contemplating your strange
+    choice of travel packing the 'A' button begins to glow. As you press the button,
+    An earring materializes on your left ear and a voice in your head that sounds
+    eerily similar to your own voice saying \"now how does that portal work again?\"
+    \r\n\r\nWhat do you do next?:\r\n1. [[Demand to know who is speaking->C1. The
+    Other You]]"
+  nextStates:
+  - {fileID: 11400000, guid: 14e8c5da443efea4690871c684a9bb06, type: 2}

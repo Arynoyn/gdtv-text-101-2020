@@ -10,7 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 98aa61497ae592843bb8f09e3ef1363a, type: 3}
-  m_Name: Room 2
+  m_Name: C2. The City
   m_EditorClassIdentifier: 
-  storyText: I am Room 2
-  nextStates: []
+  storyText: 'Yay! You win...for now.
+
+
+    Want to try again?
+
+    1. Try Again
+
+    2.
+    Return to Menu'
+  nextStates:
+  - {fileID: 11400000, guid: 80f809f3329e35f4cb7a73401a273c51, type: 2}
+  - {fileID: 11400000, guid: f56c4dcbf59fc614dabbf1226b8b8d12, type: 2}
